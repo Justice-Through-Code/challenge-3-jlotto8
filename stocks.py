@@ -35,7 +35,7 @@ def stock_purchases():
         stock = google
     elif stock_name == 'Microsoft':
         stock = msft
-    number_stock = invest_amount / stock
+    number_stock = invest_amount // stock
     
 
     # 1.5 TODO: Once you've calculated the number of stocks that can be purchased,
